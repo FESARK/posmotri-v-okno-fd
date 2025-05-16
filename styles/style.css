@@ -149,6 +149,7 @@ ol {
 .content__card-link {
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .content__video-card-title {
@@ -202,6 +203,7 @@ ol {
 .search-form__label {
   display: flex;
   width: fit-content;
+  cursor: pointer;
 }
 
 .search-form__textfield {
@@ -269,6 +271,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   letter-spacing: 0;
   text-align: center;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .button:focus {
