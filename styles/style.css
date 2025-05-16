@@ -69,6 +69,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
@@ -97,6 +98,7 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   height: 298px;
   overflow: auto;
 }
@@ -302,7 +304,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   width: calc(100% - 4px);
   padding: 6px 0px;
   margin-top: 30px;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .content__card-link_current {
