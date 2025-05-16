@@ -99,11 +99,16 @@ ol {
 .content__list-container {
   height: 298px;
   overflow: auto;
-  padding-left: 2px;
 }
 
 .title {
-  margin-bottom: 22px;
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 94%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin-bottom: 23px;
 }
 
 .content__list {
@@ -137,15 +142,6 @@ ol {
   padding-bottom: 8px;
 }
 
-.title {
-  font-family: Oswald;
-  font-weight: 700;
-  font-size: 75px;
-  line-height: 94%;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
 .content__accent {
   color: #545050;
 }
@@ -165,7 +161,8 @@ ol {
   text-wrap: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
+  padding-top: 2px;
 }
 
 .content__video-card-description {
@@ -302,5 +299,29 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   width: calc(100% - 4px);
   padding: 6px 0px;
   margin-top: 30px;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
+}
+
+.content__card-link_current {
+  background-color: #545050;
+}
+
+.content__list-item {
+  padding: 0 3px;
+}
+
+.content__card-link:focus {
+  outline: none;
+}
+
+.content__video-card:focus-visible {
+  outline: 1px solid #fff;
+}
+
+.content__video-card:hover {
+  text-decoration: underline;
+}
+
+.content__video-card:active {
+  background-color: #545050;
 }
