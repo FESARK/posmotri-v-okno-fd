@@ -322,10 +322,10 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   outline: 1px solid #fff;
 }
 
-.content__video-card:hover {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
-.content__video-card:active {
+.content__card-link:active {
   background-color: #545050;
 }
